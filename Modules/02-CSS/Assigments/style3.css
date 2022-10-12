@@ -1,0 +1,22 @@
+.breadcrumb {
+    padding: 7px;
+    background: #483D8B;
+    list-style-type: none;
+}
+
+li:not(:first-child)::before  {
+    content: "/";
+    padding: 10px;
+}
+
+.breadcrumb li  {
+    display: inline;
+    color: #efefef;
+    font-size: 15px;
+}
+
+.breadcrumb li a    {
+    color: #efefef;
+    text-decoration: none;
+}
+
